@@ -15,6 +15,7 @@ def tullyscraper(playwright: Playwright) -> None:
         title_text = title.inner_text()
         print("MENU SECTION:", title_text) 
         row = title.query_selector("~ *").query_selector("~ *")
+        row = title.query_selector_next_sibling()  # Select the next sibling element which should be the row containing menu items
         for item in row.query_selector_all("div.foodmenu__menu-item"):
             item_text = item.inner_text()
             extracted_item = extract_menu_item(title_text, item_text)
