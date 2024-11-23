@@ -21,7 +21,7 @@ def tullyscraper(playwright: Playwright) -> None:
             print(f"  MENU ITEM: {extracted_item.name}")
             extracted_items.append(extracted_item.to_dict())
         df = pd.DataFrame(extracted_items)
-        df.to_csv("cache/tullys_menu.csv", index=False)
+        df.to_csv("cache/tullys_menu.csv", index=False) 
 
 
     

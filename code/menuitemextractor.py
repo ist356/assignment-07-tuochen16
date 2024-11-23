@@ -25,7 +25,7 @@ def clean_scraped_text(scraped_text: str) -> list[str]:
         if len(item.strip()) == 0:
             continue
 
-        cleaned = cleaned + [item]
+        cleaned = cleaned + [item] 
         return cleaned
     
 
