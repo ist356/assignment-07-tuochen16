@@ -23,5 +23,5 @@ Examples:
 
 `--- Reflection Below This Line ---`
 By completing this assignment, I learned how to use Playwright to crawl websites with dynamically loaded content, and mastered the use of HTML selectors and structural parsing. In addition, I learned how to transform the extracted data into a Pandas DataFrame and save it as a CSV file, and at the same time experienced the importance of modular design and code reuse. This practice has deepened my understanding of dynamic web crawling, data processing and debugging problem solving.  
-
+ 
 

@@ -29,6 +29,6 @@ def tullyscraper(playwright: Playwright) -> None:
     context.close()
     browser.close()
 
- 
+  
 with sync_playwright() as playwright:
     tullyscraper(playwright)

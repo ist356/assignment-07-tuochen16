@@ -5,7 +5,7 @@ class MenuItem:
     # these are built-in properties
     category: str
     name: str
-    price: float
+    price: float 
     description: str
 
     # convert to a dictionary

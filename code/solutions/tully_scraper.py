@@ -5,7 +5,7 @@ from menuitem import MenuItem
 import pandas as pd
 
 def tullyscraper(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=False) 
     context = browser.new_context()
     page = context.new_page()
     page.goto("https://www.tullysgoodtimes.com/menus/")

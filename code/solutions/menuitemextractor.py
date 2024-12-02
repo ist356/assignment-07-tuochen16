@@ -5,7 +5,7 @@ if __name__ == "__main__":
 else:
     from code.menuitem import MenuItem
 
-
+ 
 def clean_price(price:str) -> float:
     # remove dollar sign
     price = price.replace("$", "")
