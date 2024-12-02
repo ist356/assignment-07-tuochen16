@@ -17,7 +17,7 @@ def clean_price(price:str) -> float:
 def clean_scraped_text(scraped_text: str) -> list[str]:
     items = scraped_text.split("\n")
     cleaned = []
-    for item in items:
+    for item in items: 
         if item in ['GS',"V","S","P"]: 
             continue
         if item.startswith("NEW"):
