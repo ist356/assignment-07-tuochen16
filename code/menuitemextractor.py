@@ -23,7 +23,7 @@ def clean_scraped_text(scraped_text: str) -> list[str]:
         if item.startswith("NEW"):
             continue
         if len(item.strip()) == 0:
-            continue  
+            continue   
  
         cleaned = cleaned + [item] 
         return cleaned
