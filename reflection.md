@@ -22,6 +22,6 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-By completing this assignment, I learned how to use Playwright to crawl websites with dynamically loaded content, and mastered the use of HTML selectors and structural parsing. In addition, I learned how to transform the extracted data into a Pandas DataFrame and save it as a CSV file, and at the same time experienced the importance of modular design and code reuse. This practice has deepened my understanding of dynamic web crawling, data processing and debugging problem solving.  
+By completing this assignment, I learned how to use Playwright to crawl websites with dynamically loaded content, and mastered the use of HTML selectors and structural parsing. In addition, I learned how to transform the extracted data into a Pandas DataFrame and save it as a CSV file, and at the same time experienced the importance of modular design and code reuse. This practice has deepened my understanding of dynamic web crawling, data processing and debugging problem solving.    
   
 

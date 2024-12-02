@@ -24,7 +24,7 @@ def tullyscraper(playwright: Playwright) -> None:
         df.to_csv("cache/tullys_menu.csv", index=False) 
 
 
-     
+      
     # ---------------------
     context.close()
     browser.close()
