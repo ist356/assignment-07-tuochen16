@@ -3,7 +3,7 @@ from dataclasses import dataclass, asdict
 @dataclass
 class MenuItem:
     # these are built-in properties
-    category: str  
+    category: str    
     name: str
     price: float 
     description: str
